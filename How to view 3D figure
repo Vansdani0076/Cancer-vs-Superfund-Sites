@@ -1,0 +1,16 @@
+import plotly.graph_objects as go
+import imageio
+import os
+
+# Create your 3D figure (same as before)
+fig = go.Figure(data=[go.Scatter3d(...)])  # your data here
+
+# Save frames from different angles
+frames = []
+for angle in range(0, 360, 10):
+    fig.update_layout(scene_camera=dict(eye=dict(x=2*np.cos(np.radians(angle)), y=2*np.sin(np.radians(angle)), z=1)))
+    fig.write_image(f"frame_{angle}.png")
+    frames.append(imageio.imread(f"frame_{angle}.png"))
+
+# Create video
+imageio.mimsave("cancer_pollution_3d.mp4", frames, fps=10)
