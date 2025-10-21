@@ -4,7 +4,7 @@ Analysis of data linking cancer to proximity of contamination
 
 ## Overview
 
-This portfolio project explores the relationship between cancer incidence rates and geographic proximity to Superfund sites across the United States. Superfund sites are polluted locations requiring long-term cleanup of hazardous material contamination, and this project aims to investigate whether living near these sites correlates with higher cancer rates.
+This portfolio project explores the relationship between cancer incidence rates and geographic proximity to Superfund sites across the United States. Superfund sites are polluted locations requiring long-term cleanup of hazardous material contamination, and this project aims to investigate whether living near these sites correlates with higher cancer rates. This project was created using MS Copilot.
 
 ## Objectives
 
